@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="chart.js">
+  <link rel="stylesheet" href="one.css">
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="left d-sm-none d-md-none d-lg-flex">
+      <ul class="nav flex-column ">
+        <li class="nav-item d-flex justify-content-center">
+          <a class="navbar-brand d-flex position-fixed text-dark" href="#"><img
+              src="https://themewagon.github.io/bankdash/bankdash.svg">
+            <h2>&nbsp;Bankdash.</h2>
+          </a>
+        </li>
+        <li class="nav-item box" style="margin-top: 80px; ">
+          <a class="nav-link disabled text-primary" href="#" tabindex="-1" aria-disabled="true"
+            style="font-size: 22px;"><i class="ri-home-2-fill">&nbsp;Dashboard</i></a>
+        </li>
+        <li class="nav-item box mt-2">
+          <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+            style="font-size: 22px;"><i class="ri-money-dollar-box-line">&nbsp;Transactions</i></a>
+        </li>
+        <li class="nav-item box mt-2">
+          <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+            style="font-size: 22px;"><i class="ri-user-3-fill">&nbsp;Accounts</i></a>
+        </li>
+        <li class="nav-item box mt-2">
+          <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+            style="font-size: 22px;"><i class="ri-bar-chart-fill">&nbsp;Investment</i></a>
+        </li>
+        <li class="nav-item box mt-2">
+          <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+            style="font-size: 22px;"><i class="ri-bank-card-fill">&nbsp;Credit-Card</i></a>
+        </li>
+        <li class="nav-item box mt-2">
+          <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+            style="font-size: 22px;"><i class="ri-hand-coin-fill">&nbsp;Loans</i></a>
+        </li>
+        <li class="nav-item box mt-2">
+          <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+            style="font-size: 22px;"><i class="ri-tools-fill">&nbsp;Services</i></a>
+        </li>
+        <li class="nav-item box mt-2">
+          <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+            style="font-size: 22px;"><i class="ri-settings-5-fill">&nbsp;Seeting</i></a>
+        </li>
+        <li class="nav-item box mt-2">
+          <a class="nav-link disabled text-dark" href="#" tabindex="-1" aria-disabled="true" style="font-size: 22px;"><i
+              class="ri-login-circle-line">&nbsp;Login</i></a>
+        </li>
+        <li class="nav-item box mt-2">
+          <a class="nav-link disabled text-dark" href="#" tabindex="-1" aria-disabled="true" style="font-size: 22px;"><i
+              class="ri-user-add-line">&nbsp;Sign-Up</i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="right">
+      <div class="container-fulid d-sm-flex d-md-flex d-lg-none scroll1">
+        <div class="row w-100  ps-3">
+          <div class="col-8 d-flex ">
+              <img src="https://themewagon.github.io/bankdash/bankdash.svg">
+              <i class="bi bi-list fs-1 ps-4"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"></i>
+          </div>
+          <div class="col-4 d-flex justify-content-end ">
+            <i class="ri-settings-2-line text-primary"
+            style="font-size: 25px; margin-left: 15px; border-radius: 50%; width: 20%; display: flex; justify-content: center; padding-top: 6px;"></i>
+          <i class="ri-notification-2-line "
+            style="font-size: 25px; margin-left: 15px; border-radius: 50%; width: 20%; display: flex; justify-content: center; padding-top: 6px; color:brown;"></i>
+          <img src="https://simg.nicepng.com/png/small/856-8561250_profile-pic-circle-girl.png"
+            style="height: 50px; width: 50px; margin-left: 15px;">
+          </div>
+        </div>
+      </div>
+      <div class="container-fulid d-flex d-sm-flex d-md-flex d-lg-none scroll2" > 
+        <i class="bi bi-search fs-5" style="position: absolute; padding-left: 13px; margin-top: 10px;"></i>
+        <input type="text" placeholder="Search for something" style="width: 100%; height: 50px; border-radius: 999px; margin-top: 0px;outline: none; background-color:  rgba( 74, 144, 226, 0.2 ); border: none; padding-left: 40px; position: relative;">
+      </div>
+      <nav class="navbar navbar-light navigation bg-white d-sm-none  d-md-none d-lg-block" style="position: fixed; width: 82%;">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <h2>Overview</h2>
+          </a>
+          <form class="d-flex button ">
+            <i class="ri-search-line button1" style="background-color:white"></i>
+            <input class="form-control me-3" type="search" placeholder="Search for something" aria-label="Search"
+              style="margin-right: 50px; border-radius: 999px;padding-left: 40px;">
+            <i class="ri-settings-2-line text-primary"
+              style="font-size: 25px; margin-right: 20px; border-radius: 50%; width: 20%; display: flex; justify-content: center; padding-top: 6px;"></i>
+            <i class="ri-notification-2-line"
+              style="font-size: 25px; margin-right: 20px; border-radius: 50%; width: 20%; display: flex; justify-content: center; padding-top: 6px; color:brown;"></i>
+            <img src="https://simg.nicepng.com/png/small/856-8561250_profile-pic-circle-girl.png"
+              style="height: 50px; width: 50px;">
+          </form>
+        </div>
+      </nav>
+      <div class="container-fulid cards" >
+        <div class="row ">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <h3 style="padding-top: 20px;">My cards</h3>
+            <div class="cards1 ">
+              <div class="cards2 text-light d-flex justify-content-between ps-3 pe-3 pt-3">
+                <h6>Balance<br>
+                  <span style="font-size: 23px;">$5,756</span>
+                </h6>
+                <img
+                  src="data:image/png;base64,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"
+                  style="height: 40px;">
+              </div>
+              <div class="cards3 d-flex justify-content-between ps-3  pt-3 text-white" style="padding-right: 75px;">
+                <p>CARD HOLDER
+                  <br>
+                  <span style="font-size: 20.5px;">Eddy Cusuma</span>
+                </p>
+                <p>VALID THRU
+                  <br>
+                  12/22
+                </p>
+              </div>
+              <div class="cards5 d-flex justify-content-between ps-3  pe-3 pt-3 text-light">
+                <h4>3778 **** **** 1234</h4>
+                <img
+                  src="data:image/svg+xml,%3csvg%20width='44'%20height='30'%20viewBox='0%200%2044%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='15'%20cy='15'%20r='15'%20fill='white'%20fill-opacity='0.5'/%3e%3ccircle%20cx='29'%20cy='15'%20r='15'%20fill='white'%20fill-opacity='0.5'/%3e%3c/svg%3e"
+                  style="height: 35px;">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <h5 class="text-end" style="padding-top: 28px;">See all</h5>
+            <div class="cards1 bg-white">
+              <div class="cards2 text-dark d-flex justify-content-between ps-3 pe-3 pt-3">
+                <h6>Balance<br>
+                  <span style="font-size: 23px;">$3,200</span>
+                </h6>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQdSURBVHgB7VddaBxVFD7nzszO7Lr5YVOtD2ojaKjE2AoWQVpN02Rjqi+LFrVGhIJQii/+gPiUh4LgQ30RURHFgBQURLM+NNmkZlFKNTRQEF9KMdtiytKaZkl22c3szL1+k4Zgy+78SH8hH8zszpnvnvude8+9cy7RBhqDGxmHhoZaq9Vql8HGXZrSmK4TXHaV0tSSEOJMLperkI8YHnh64CHS6X1W/CwJSpGiGDUR/D+hcK0w8bxU8igb/OF/RWnebWRkRJia+Q4zH8X1JLpvgVm/zkJozZ/nN4V+nmHJBzof6Pxl7tzchXUxlrAyoH2GK043F0mI6u/q7Bo7Wzhb4kw6c0/FqczhRYJuHX61pb1XlN3y8LVCkDPZieMTIvdzjr0LA5uEea8idYYiAHkxhYR9vK3YZiJbxnyou0xl7uCBPQMz6HzHNS8XMGXHYHdWnwTN12X9C+GIhNDFb7C0UgAg/Lxe0XvchPsg2h+C6QUYO5rylTqsCxLdajXJr0IHTMPrdullnf685Vq7alrtGIS+RME4bBv2Jl3oM+goFkRG7mwXIIZLWkWPLBlLbYjyr1B8h85j6T4RRsiqe6VaBIVcvorVyfjf8UsQ9WgYPtbpdsnyBEb3HwoJTvelR4JISqp5tjnLce5GBBMwGRSMIuZ2m23bMVOYr0KU5cuWVNCFFKMUgPH8eGGwb/A1jMqRkEI83IupmjLIOLAiVz63yGr3I9eoVtKlkHMUDG8q+xDd3RQNPaxxt8VWUko57Uc0lJEXdBthQ0wzbIhpBq+2KNANBPYl6bpuiQUX/Hj4HJRCF0/p3eltqND2Yyd+m64EEQRv5z1iJa1Pstnscgg+8eDuwekgEvaXMm6jC8sLY6mW1CFE6W1+mk+DS2iT0S39lGM7B7GxDsFq+vbB6rSOWy+Fkk3PpVpTP7TX2ocXrcUtgsVbTZiOJHnQsIw/3BX3NEZzK/oIdI/pJO+rHcxckwNkSmbpdWGIj/FcasI7ubi0+JNbcz/F/60UAQIRX47AZ0zRu8Vi8SIi/rERAdXd1x2tHY/B84sUAV4CCzidoWi4b3Nq88P4nW30EsXaLLLpqbVjThTMCiTadxQNOqKPIy8caiymhnLApChgsvEhnRKobb+BoHDV2xVc1KVewLD2NHrpkNONE+MpigB2+dvJ6cnfRT6fdzTWhpHH50K2/UokRQXT0N/QseBXYtXYLFZQnsJAYXqq4k0Ep9Y3vf7e/p1w9CVyqMunaQHnm54Yx97A0H7UxPmyK909WPp1+PNOEk2nDANwvK7qL2NAVkvTq3bgfb37kiVRykDjfjx6x9z2Nc5ldPK9UTfes3V7CzqZhG0TNY/2z4RK7CzL8v2aoX2AsjUNLzHYcc6gC8i3ExA7irPZuDcitIE7Cf8Ci0uNcDcjp74AAAAASUVORK5CYII="
+                  style="height: 40px;">
+              </div>
+              <div class="cards3 d-flex justify-content-between ps-3  pt-3 text-dark" style="padding-right: 75px;">
+                <p>CARD HOLDER
+                  <br>
+                  <span style="font-size: 20.5px;">Jane Doe</span>
+                </p>
+                <p>VALID THRU
+                  <br>
+                  01/24
+                </p>
+              </div>
+              <hr>
+              <div class="cards4 d-flex justify-content-between ps-3  pe-3  mt-3 text-dark">
+                <h4>1234 **** **** 5678</h4>
+                <img
+                  src="data:image/svg+xml,%3csvg%20width='44'%20height='30'%20viewBox='0%200%2044%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='15'%20cy='15'%20r='15'%20fill='%239199AF'%20fill-opacity='0.5'/%3e%3ccircle%20cx='29'%20cy='15'%20r='15'%20fill='%239199AF'%20fill-opacity='0.5'/%3e%3c/svg%3e"
+                  style="height: 35px;">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12  col-lg-4">
+            <h3 style="padding-top: 20px;">Recent Transactions</h3>
+            <div class="cards1 bg-white">
+              <table class="table border-white">
+                <tbody>
+                  <tr>
+                    <td class="badge rounded-circle circle1">
+                      <i class="bi bi-window-stack" style="color: orange; font-size: 33px;"></i>
+                    </td>
+                    <td style="padding-top: 25px;">Deposit from my Card
+                      <br>
+                      25 January 2021
+                    </td>
+                    <td style="padding-top: 25px; color: brown;">- $500</td>
+                  </tr>
+                  <tr>
+                    <td class="badge rounded-circle circle2">
+                      <i class="bi bi-paypal" style="color: rgb(83, 83, 247); font-size: 33px;"></i></td>
+                    <td style="padding-top: 25px;">Deposit Paypal
+                      <br>
+                      25 January 2021
+                    </td>
+                    <td style="padding-top: 25px; color: green;">+ $500</td>
+                  </tr>
+                  <tr>
+                    <td class="badge rounded-circle circle3">
+                      <i class="bi bi-coin" style="color:rgb(22, 236, 165); font-size: 33px;"></i></td>
+                    <td style="padding-top: 25px;">Jemi Wilson
+                      <br>
+                      25 January 2021
+                    </td>
+                    <td style="padding-top: 25px; color: green;">+ $500</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fulid chart">
+        <div class="row d-lg-flex">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 chart1">
+            <div class="chart3 ">
+              <h4> Weekly Activity</h4>
+            </div>
+            <canvas id="myChart"></canvas>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 chart2 ">
+            <div class="chart3">
+              <h4>Expense Statistics</h4>
+            </div>
+            <canvas id="myChart1"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="container-fulid charts">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+            <h4>Quick Transfer</h4>
+            <div class="charts1">
+              <div id="carouselExampleFade" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-4 imag">
+                        <img src="https://themewagon.github.io/bankdash/assets/image-5-Cyb-y21N.png">
+                        <span>sofia Gill </span>
+                        <br>
+                        <span> Director</span>
+
+                      </div>
+                      <div class="col-4  imag">
+                        <img src="https://themewagon.github.io/bankdash/assets/image-3-CazXWhmY.png">
+                        <span>Livia Bator</span>
+                        <br>
+                        <span class="text1">CEO</span>
+
+                      </div>
+                      <div class="col-4 imag">
+                        <img src="https://themewagon.github.io/bankdash/assets/image-6-Cwr8LWQE.png">
+                        <span> Jobarnes </span>
+                        <br>
+                        <span>Analyst</span>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-4 imag">
+                        <img src="https://themewagon.github.io/bankdash/assets/image-2-C0SRPo6r.png">
+                        <span>Randy Press </span>
+                        <br>
+                        <span> Director</span>
+
+                      </div>
+                      <div class="col-4 imag">
+                        <img src="https://themewagon.github.io/bankdash/assets/image-1-BQaU1fzz.png">
+                        <span>Workman</span>
+                        <br>
+                        <span>Designer</span>
+
+                      </div>
+                      <div class="col-4 imag">
+                        <img src="https://themewagon.github.io/bankdash/assets/image-4-Dz-1HCyi.png">
+                        <span>Kevin Reed </span>
+                        <br>
+                        <span class="text2" >ux</span>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-4 imag">
+                        <img src="https://themewagon.github.io/bankdash/assets/image-5-Cyb-y21N.png">
+                        <span>sofia Gill </span>
+                        <br>
+                        <span> Director</span>
+
+                      </div>
+                      <div class="col-4 imag">
+                        <img src="https://themewagon.github.io/bankdash/assets/image-3-CazXWhmY.png">
+                        <span>Livia Bator</span>
+                        <br>
+                        <span class="text1">CEO</span>
+
+                      </div>
+                      <div class="col-4 imag">
+                        <img src="https://themewagon.github.io/bankdash/assets/image-6-Cwr8LWQE.png">
+                        <span> Jobarnes </span>
+                        <br>
+                        <span>Analyst</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon btn btn-outline-light bg-dark rounded-circle ms-4"
+                      aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="chr-1 d-flex justify-content-evenly">
+                <h3>Write Amount</h3>
+                <input type="text" placeholder="525.50">
+                <div class="btn  rounded-pill" >SEND<i class="bi bi-send"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+            <h4>Balance History</h4>
+            <canvas id="myCharts bar" style="border-radius: 20px; background-color: white;"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="container-fulid table1">
+        <div class="row ">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+              <h3 style="padding-bottom: 20px;">Recent Invoice</h3>
+                <table class="table bg-white table2">
+                    <thead>
+                    <tr>
+                        <td></td>
+                        <td>Email</td>
+                        <td>Username</td>
+                        <td>status</td>
+                        <td></td>
+                    </tr>
+                    </thead>
+                     <tr>
+                        <td><input type="checkbox"></td>
+                        <td class=" box1"><img src="https://st4.depositphotos.com/4196725/37929/i/450/depositphotos_379295916-stock-photo-young-pretty-woman-looking-happy.jpg" class="rounded-circle" >
+                          <a>markotto@gmail.com <br>
+                            Added:01/07/2022</a>
+                        </td>
+                        <td> markotto89</td>
+                        <td ><span class="badge text-success rounded-pill" ><li>Active</li></span></td>
+                        <td> <i class="ri-close-line" ></i></td>
+                     </tr>
+                     <tr>
+                        <td><input type="checkbox"></td>
+                        <td class=" box1"><img src="https://media.istockphoto.com/id/1416048929/photo/woman-working-on-laptop-online-checking-emails-and-planning-on-the-internet-while-sitting-in.jpg?s=612x612&w=0&k=20&c=mt-Bsap56B_7Lgx1fcLqFVXTeDbIOILVjTdOqrDS54s=" class="rounded-circle" >
+                          <a> jacobth@gmail.com <br>
+                            Added:01/07/2022 </a>
+                        </td>
+                        <td> jacobth </td>
+                        <td ><span class="badge box2 text-warning rounded-pill"><li>Waiting For Resassignment</li></span></td>
+                        <td> <i class="ri-close-line" ></i></td>
+                     </tr>
+                     <tr>
+                        <td><input type="checkbox"></td>
+                        <td class=" box1"><img src="https://watermark.lovepik.com/photo/20211122/large/lovepik-business-people-who-are-working-on-computers-are-picture_500709606.jpg" class="rounded-circle" >
+                           <a>larrybird@gmail.com <br>
+                            Added:01/07/2022 </a>
+                        </td>
+                        <td> Larry_bird</td>
+                        <td ><span class="badge text-success rounded-pill"><li>Active</li></span></td>
+                        <td> <i class="ri-close-line" ></i></td>
+                     </tr>
+                     <tr>
+                        <td><input type="checkbox"></td>
+                        <td class=" box1"><img src="https://www.shutterstock.com/image-photo/business-woman-laptop-taking-notes-260nw-1769989298.jpg" class="rounded-circle" >
+                        <a>johndoe@gmail.com <br>
+                            Added:01/07/2022 </a>
+                        </td>
+                        <td> johndoe1990</td>
+                        <td ><span class="badge text-success rounded-pill"><li>Active</li></span></td>
+                        <td> <i class="ri-close-line" ></i></td>
+                     </tr>
+                     <tr>
+                        <td><input type="checkbox"></td>
+                        <td class=" box1"><img src="https://previews.123rf.com/images/dolgachov/dolgachov1706/dolgachov170602642/80923113-business-people-and-technology-concept-happy-smiling-woman-with-laptop-computer-working-at-home-or.jpg" class="rounded-circle" >
+                          <a> garybird@gmail.com <br>
+                            Added:01/07/2022 </a>
+                        </td>
+                        <td> garybird_2020</td>
+                        <td ><span class="badge box2 text-warning rounded-pill"><li>Waiting For Resassignment</li></span></td>
+                        <td> <i class="ri-close-line" ></i></td>
+                     </tr>
+                 </table>
+            </div>
+        </div>
+    </div>
+    <div class="container-fulid  footer" style="background-color: whitesmoke;">
+      © 2024, Your Company Inc. Made with <i class="bi bi-heart-fill p-1" style="color: red;"></i> by kamini
+    </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <li class="nav-item d-flex justify-content-end">
+        <a class="navbar-brand d-flex  text-dark" href="#"><img
+            src="https://themewagon.github.io/bankdash/bankdash.svg">
+          <h2>&nbsp;Bankdash.</h2> 
+        </a>
+      </li>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body" style="list-style: none;">
+    <li class="nav-item box" style="margin-top: 5px;">
+      <a class="nav-link disabled text-primary" href="#" tabindex="-1" aria-disabled="true"
+        style="font-size: 22px;"><i class="ri-home-2-fill">&nbsp;Dashboard</i></a>
+    </li>
+    <li class="nav-item box mt-2">
+      <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+        style="font-size: 22px;"><i class="ri-money-dollar-box-line">&nbsp;Transactions</i></a>
+    </li>
+    <li class="nav-item box mt-2">
+      <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+        style="font-size: 22px;"><i class="ri-user-3-fill">&nbsp;Accounts</i></a>
+    </li>
+    <li class="nav-item box mt-2">
+      <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+        style="font-size: 22px;"><i class="ri-bar-chart-fill">&nbsp;Investment</i></a>
+    </li>
+    <li class="nav-item box mt-2">
+      <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+        style="font-size: 22px;"><i class="ri-bank-card-fill">&nbsp;Credit-Card</i></a>
+    </li>
+    <li class="nav-item box mt-2">
+      <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+        style="font-size: 22px;"><i class="ri-hand-coin-fill">&nbsp;Loans</i></a>
+    </li>
+    <li class="nav-item box mt-2">
+      <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+        style="font-size: 22px;"><i class="ri-tools-fill">&nbsp;Services</i></a>
+    </li>
+    <li class="nav-item box mt-2">
+      <a class="nav-link disabled text-dark-50" href="#" tabindex="-1" aria-disabled="true"
+        style="font-size: 22px;"><i class="ri-settings-5-fill">&nbsp;Seeting</i></a>
+    </li>
+    <li class="nav-item box mt-2">
+      <a class="nav-link disabled text-dark" href="#" tabindex="-1" aria-disabled="true" style="font-size: 22px;"><i
+          class="ri-login-circle-line">&nbsp;Login</i></a>
+    </li>
+    <li class="nav-item box mt-2">
+      <a class="nav-link disabled text-dark" href="#" tabindex="-1" aria-disabled="true" style="font-size: 22px;"><i
+          class="ri-user-add-line">&nbsp;Sign-Up</i></a>
+    </li>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script>
+    const ctx = document.getElementById('myChart');
+
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['sat', 'sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+        datasets: [{
+          label: '# of Votes',
+          data: [100, 200, 380, 300, 400, 500, 250],
+          borderWidth: 3
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+
+    const cty = document.getElementById('myChart1');
+
+    new Chart(cty, {
+      type: 'polarArea',
+      data: {
+        labels: ['Other', 'Investment', 'Entertainment', 'Bill Expense',],
+        datasets: [{
+          label: '# of Votes',
+          data: [25, 30, 25, 20,],
+          borderWidth: 5
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+
+    const ctz = document.getElementById('myCharts bar');
+
+    new Chart(ctz, {
+      type: 'line',
+      data: {
+        labels: ['jul', 'Aug', 'sep', 'oct', 'nov', 'dec', 'jan', 'feb', 'Mar', 'Apr', 'May', 'jun',],
+        datasets: [{
+          label: '# of Votes',
+          data: [0, 500, 200, 300, 400, 100, 400, 500, 200, 100, 500, 300],
+          borderWidth: 5
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+
+  </script>
+
+</body>
+
+</html>

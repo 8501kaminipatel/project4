@@ -1,0 +1,543 @@
+
+@media(max-width:991px) {
+    .right {
+        background-color: white;
+    }
+
+    .cards {
+        height: 1010px;
+        width: 100%;
+        margin-top: 110px;
+        background-color: white;
+    }
+
+    .table .circle1 {
+        background-color: rgb(245, 221, 181);
+        height: 57px;
+        width: 52%;
+        margin-top: 20px;
+        padding-left: 7.9px;
+        margin-left: 5px;
+        padding-top: 9.5px;
+        padding-right: 8px;
+    }
+
+    .table .circle2 {
+        background-color: rgb(208, 208, 246);
+        height: 57px;
+        width: 52%;
+        margin-top: 20px;
+        padding-left: 7.9px;
+        margin-left: 5px;
+        padding-top: 9.5px;
+        padding-right: 8px;
+    }
+
+    .table .circle3 {
+        background-color: rgb(222, 249, 249);
+        height: 57px;
+        width: 52%;
+        margin-top: 20px;
+        padding-left: 7.9px;
+        margin-left: 5px;
+        padding-top: 9.5px;
+        padding-right: 8px;
+    }
+
+    .cards3 {
+        padding-right: 50px;
+    }
+
+    .chart {
+        height: 1100px;
+        background-color: white;
+    }
+
+    .chart1 {
+        height: 400px;
+
+        padding-top: -50px;
+    }
+
+    .chart2 {
+        padding-top: -500px;
+       width: 100%;
+    }
+
+    #myChart1 {
+        width: 100%;
+         height: 1200px;
+         width: 100%;
+       
+    }
+    .imag {
+        height: 250px;
+        width: 32%;
+        z-index: 1;
+    }
+    
+    .imag img {
+        height: 150px;
+        width: 75%;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-top: 50PX;
+        z-index: 1;
+    }
+    
+
+    .charts {
+        height: 800px;
+        background-color: white;
+    }
+
+   
+
+    .charts1 .imag span {
+        padding-left: 21px;
+    }
+
+    .chr-1 .btn {
+        margin-left: 420.1px;
+        padding-left: 12px;
+        padding-top: 7px;
+    }
+
+    .chr-1 .btn i {
+        margin-left: 5px;
+    }
+
+    .box1 {
+        width: 25%;
+        padding-right: 60px;
+    }
+
+    .box1 a {
+        padding-right: 60px;
+    }
+
+    .badge {
+        width: 50%;
+        height: 35px;
+        margin-top: 15px;
+    }
+
+    .badge li {
+        padding-top: 6px;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+
+    .table1 {
+        background-color: white;
+         overflow-y: scroll;
+         padding-top: 0%;
+    }
+    .scroll1
+    {
+        position: fixed;
+         top: 0%;
+          width: 83%;
+          background-color: white;
+           z-index: 2;
+           height: 50px;
+          
+    }
+    .scroll2
+    {
+        position: fixed; 
+        top: 8.5%; 
+        width: 83%; 
+        z-index: 2; 
+        height: 70px;
+        padding: 12px;
+        height: 70px;
+        background-color: white; 
+    }
+    #offcanvasExample
+    {
+        width: 40%;
+    }
+    .charts1 .imag .text1
+    {
+        padding-left: 45px;
+    }
+    .charts1 .imag .text2
+    {
+        padding-left: 55px;
+    }
+    
+}
+@media(max-width:767px) {
+    
+
+    .cards {
+        height: 1050px;
+        width: 100%;
+        margin-top: 110px;
+        background-color: whitesmoke;
+    }
+
+    .chart {
+        height: 870px;
+        background-color: whitesmoke;
+    }
+
+    .chart1 {
+        height: 300px;
+    }
+
+    .chart2 {
+        padding-top: -500px;
+       width: 100%;
+       height: 550px;
+    }
+
+    .chr-1 .btn {
+        margin-left: 326px;
+        padding-left: 12px;
+        padding-top: 7px;
+    }
+
+    .chr-1 .btn i {
+        margin-left: 5px;
+    }
+
+    .charts {
+        height: 750px;
+        background-color: whitesmoke;
+    }
+
+    .table1 {
+     
+        background-color: whitesmoke;
+        overflow-y: scroll;
+        padding-top: 0%;
+    }
+
+    .box1 {
+        width: 25%;
+        padding-right: 60px;
+    }
+
+    .box1 a {
+        padding-right: 60px;
+    }
+
+    .badge {
+        width: 50%;
+        height: 35px;
+        margin-top: 15px;
+    }
+
+    .badge li {
+        padding-top: 6px;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+
+    .table .circle1 {
+        background-color: rgb(245, 221, 181);
+        height: 57px;
+        width: 67%;
+        margin-top: 20px;
+        padding-left: 7.9px;
+        margin-left: 5px;
+        padding-top: 9.5px;
+        padding-right: 8px;
+    }
+
+    .table .circle2 {
+        background-color: rgb(208, 208, 246);
+        height: 57px;
+        width: 67%;
+        margin-top: 20px;
+        padding-left: 7.9px;
+        margin-left: 5px;
+        padding-top: 9.5px;
+        padding-right: 8px;
+    }
+
+    .table .circle3 {
+        background-color: rgb(222, 249, 249);
+        height: 57px;
+        width: 67%;
+        margin-top: 20px;
+        padding-left: 7.9px;
+        margin-left: 5px;
+        padding-top: 9.5px;
+        padding-right: 8px;
+    }
+    #mychart1
+    {
+      
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+    }
+    .scroll1
+    {
+        position: fixed;
+         top: 0%;
+          width: 83%;
+          background-color: white;
+           z-index: 2;
+           height: 50px;
+    }
+    
+    .scroll2
+    {
+        position: fixed; 
+        top: 8.5%; 
+        width: 83%; 
+        background-color: white; 
+        z-index: 2; 
+        height: 70px;
+        padding: 12px;
+    }
+    .imag {
+        height: 250px;
+        width: 32%;
+        z-index: 1;
+    }
+    
+    .imag img {
+        height: 100px;
+        width: 75%;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-top: 50PX;
+        z-index: 1;
+    }
+    .charts1 .imag span {
+        padding-left: 5px;
+    }
+    #offcanvasExample
+    {
+        width: 50%;
+    }
+    .charts1 .imag .text1
+    {
+        padding-left: 27px;
+    }
+    .charts1 .imag .text2
+    {
+        padding-left: 35px;
+    }
+}
+@media(max-width:556px)
+{
+    .left
+    {
+        display: none;
+    }
+    .right
+    {
+        width: 100%;
+        height: 100%;
+        padding: none;
+    }
+    .right .navigation
+    {
+         display: none;
+    }
+    .cards
+    {
+        height: 965px;
+        background-color: whitesmoke;
+        padding: 0%;
+        margin-top: 120px;
+    }
+       .cards1
+       {
+       
+        width: 100%;
+        padding: 0px;
+       }
+       .cards2
+       {
+        padding: 0%;
+        width: 100%;
+       }
+       .scroll1
+       {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 0px;
+        background-color: white;
+        height: 50px;
+       } 
+       
+       .scroll2
+       {
+           position: fixed; 
+           top: 8.5%; 
+           width: 100%; 
+           background-color: white; 
+           z-index: 2; 
+           height: 70px;
+           padding: 12px;
+           
+       }
+       #mychart1
+    {
+      
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        height: 200px;
+    }
+       .cards2
+       {
+        padding-left: 0;
+        padding-top: 0;
+        padding-right: 0;
+       }
+       .offcanvas
+       {
+        width: 100%;
+       }
+       .table .circle1 {
+        background-color: rgb(245, 221, 181);
+        height: 52px;
+        width: 85%;
+        margin-top: 20px;
+        padding-left: 7.9px;
+        margin-left: 5px;
+        padding-top: 7px;
+        padding-right: 8px;
+    }
+
+    .table .circle2 {
+        background-color: rgb(208, 208, 246);
+        height: 52px;
+        width: 85%;
+        margin-top: 20px;
+        padding-left: 7.9px;
+        margin-left: 5px;
+        padding-top: 7px;
+        padding-right: 8px;
+    }
+
+    .table .circle3 {
+        background-color: rgb(222, 249, 249);
+        height: 52px;
+        width: 85%;
+        margin-top: 20px;
+        padding-left: 7.9px;
+        margin-left: 5px;
+        padding-top: 7px;
+        padding-right: 8px;
+    }
+    .footer
+    {
+       display: row;
+       text-align: center;
+    }
+    #offcanvasExample
+    {
+        width: 85%;
+    }
+    .chart {
+        height: 665px;
+        padding: 0px;
+        background-color: whitesmoke;
+    }
+    .chart1 {
+        height: 250px;
+    }
+
+    .chart2 {
+        padding-top: -500px;
+       width: 100%;
+       /* height: 350px; */
+       background-color: whitesmoke;
+    }
+    #myChart
+    {
+        width: 250px;
+        background-color: white;
+    }
+    .charts
+    {
+        padding: 0%;
+        height: 545px;
+        background-color: whitesmoke;
+    }
+    .charts1
+    {
+        
+        background-color: white;
+        height: 250px;
+    }
+    .imag {
+        height: 250px;
+        width: 32%;
+        z-index: 1;
+    }
+    
+    .imag img {
+        height: 80px;
+        width: 77%;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-top: 50PX;
+        z-index: 1;
+    }
+    .charts1 .imag span {
+        
+        font-size: 10px;
+    text-align: center;
+    margin-left: 13px;
+    }
+    .charts1 .btn 
+    {
+        margin-right: 6px;
+    }
+    .chr-1 input {
+        border-radius: 999px;
+        padding-left: 10px;
+        width: 50%;
+    }
+    
+    .chr-1 .btn {
+        padding-left: 11.2px;
+        padding-top: 6.5px;
+        margin-left: 233px;
+        width: 25%;
+    }
+    
+    .chr-1 .btn i {
+        margin-left: 4px;
+        font-size: 13px;
+    }
+    .chr-1 h3 
+    {
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chr-1 
+    {
+        margin-top: -57px;
+    }
+    .table1
+    {
+        padding: 0px;
+
+    }
+    .charts1 .imag .text1
+    {
+        padding-left: 20px;
+    }
+    .charts1 .imag .text2
+    {
+        padding-left: 22px;
+    }
+   
+}

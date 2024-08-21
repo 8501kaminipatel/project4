@@ -1,0 +1,305 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    height: 100vh;
+    width: 15%;
+    background-color: white;
+    position: sticky;
+    top: 0%;
+}
+
+.right {
+    height: 100vh;
+    width: 83%;
+    margin: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.box:hover {
+    background: rgba(74, 144, 226, 0.2);
+}
+
+.button i {
+    background: rgba(74, 144, 226, 0.2);
+}
+
+.button {
+    width: 40%;
+}
+
+.form-control {
+    width: 60%;
+}
+
+.button1 {
+    position: absolute;
+    font-size: 25px;
+    top: 18px;
+    left: 60.8%;
+}
+
+.button1 i {
+    background-color: none;
+}
+
+.cards {
+    height: 350px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.cards1 {
+    height: 260px;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.cards2 {
+    height: 83px;
+    width: 100%;
+}
+
+.cards3 {
+    height: 83px;
+    width: 100%;
+}
+
+.cards4 {
+    height: 83px;
+    width: 100%;
+}
+
+.cards5 {
+    height: 83px;
+    width: 100%;
+    background: #007aff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 10.6px;
+}
+
+.chart {
+    height: 530px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+
+.chart3 {
+    margin-top: 20px;
+}
+
+#myChart {
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#myChart1 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.charts {
+    height: 450px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding: 20px;
+}
+
+.imag {
+    height: 250px;
+    width: 100%;
+    z-index: 1;
+}
+
+.imag img {
+    height: 100px;
+    width: 60%;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 50PX;
+    z-index: 1;
+}
+
+.charts1 {
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-radius: 20px;
+}
+
+.charts1 span {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 19.5px;
+}
+
+h4 {
+    padding-top: 15px;
+}
+
+.chr-1 {
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    margin-top: 30px;
+}
+
+.chr-1 input {
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(243, 246, 251);
+}
+
+.chr-1 .btn {
+    height: 40px;
+    width: 20%;
+    position: absolute;
+    margin-left: 395px;
+    background-color: rgb(24, 20, 243);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.box1 {
+    height: 80px;
+    width: 13.5%;
+    display: flex;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.table i {
+    color: brown;
+}
+
+a {
+    margin-left: 50px;
+}
+
+.badge {
+    background-color: rgb(201, 215, 201);
+}
+
+.box2 {
+    background-color: rgb(234, 234, 190);
+}
+
+.table {
+    border-radius: 20px;
+}
+
+.table1 {
+    height: 550px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.navigation {
+    z-index: 2;
+}
+
+.cards {
+    margin-top: 72px;
+}
+
+.badge {
+    width: 30%;
+    height: 35px;
+    margin-top: 15px;
+}
+
+.badge li {
+    padding-top: 6px;
+}
+
+.box2 {
+    width: 70%;
+}
+
+.table .circle1 {
+    background-color: rgb(245, 221, 181);
+    height: 57px;
+    width: 75%;
+    margin-top: 20px;
+    padding-left: 8px;
+    margin-left: 8px;
+    padding-top: 10px;
+    padding-right: 8px;
+}
+
+.table .circle2 {
+    background-color: rgb(208, 208, 246);
+    height: 57px;
+    width: 75%;
+    margin-top: 20px;
+    padding-left: 8px;
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-right: 8px;
+}
+
+.table .circle3 {
+    background-color: rgb(222, 249, 249);
+    height: 57px;
+    width: 75%;
+    margin-top: 20px;
+    padding-left: 8px;
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-right: 8px;
+}
+
+.chr-1 input {
+    border-radius: 999px;
+    padding-left: 15px;
+    width: 55%;
+}
+
+.chr-1 .btn {
+    padding-left: 22px;
+    padding-top: 7px;
+    margin-left: 367.5px;
+}
+
+.chr-1 .btn i {
+    margin-left: 4px;
+    font-size: 14px;
+}
+.footer 
+{
+    padding: 20px;
+}
+.text1
+{
+    padding-left: 20px;
+}
+.text2
+{
+    padding-left: 30px;
+}
